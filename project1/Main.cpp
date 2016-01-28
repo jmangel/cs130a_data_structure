@@ -54,6 +54,7 @@ int main()
 			}
 			else if(str.compare("delete") == 0)
 			{
+				
 				int key;
 				cin >> key;
 				h.remove(key);
